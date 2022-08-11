@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
-/* - Pale blue: hsl(225, 100%, 94%)
-- Bright blue: hsl(245, 75%, 52%)
 
-### Neutral
-
-- Very pale blue: hsl(225, 100%, 98%)
-- Desaturated blue: hsl(224, 23%, 55%)
-- Dark blue: hsl(223, 47%, 23%) */
 *{
     
     box-sizing: border-box;
@@ -110,4 +103,10 @@ body {
     cursor: pointer;
     color: hsl(223, 47%, 23%);
     font-weight: 900;
+}
+@media screen and (max-width:375px) {
+    body {
+        background-image: url('./images/pattern-background-mobile.svg');
+        background-color: hsl(225, 100%, 94%);
+    }
 }
