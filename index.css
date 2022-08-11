@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/* - Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%) */
+*{
+    
+    box-sizing: border-box;
+    font-family: 'Red Hot Display', sans-serif;
+}
+p {
+    font-size: 16px;
+}
+h1 {
+    font-size: larger;
+}
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    background-size: 1000px;
+    background-color: hsl(225, 100%, 94%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.main-container {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    border-radius: 12px;
+    flex-direction: column;
+    background-color: white;
+    overflow: hidden;
+    
+}
+
+.image-container {
+   
+}
+
+.content-container {
+    padding: 20px;
+}
+.annual-btn {
+    display: flex;
+    flex-direction: row;
+    background-color:hsl(225, 100%, 98%);
+    border-radius: 12px;
+    padding: 10px;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.payment {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 12px;
+    font-size: small;
+    margin-top: 20px;
+}
+.payment:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+.order-text {
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+}
+
+.soft {
+    font-size: 12px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+
+#annual-text {
+    color: hsl(223, 47%, 23%);
+    font-size: 14px;
+    font-weight: 700;
+}
+ .change-text {
+    font-size: smaller;
+    color:hsl(245, 75%, 52%);
+    text-decoration: underline;
+ }
+ .change-text:hover {
+    cursor: pointer;
+    opacity: 0.7;
+
+ }
+ .cancel-order {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+ 
+}
+.cancel-order:hover {
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
